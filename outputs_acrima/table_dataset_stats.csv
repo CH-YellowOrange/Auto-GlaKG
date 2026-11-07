@@ -1,0 +1,4 @@
+Split,Images,Glaucoma,Normal,Glaucoma %,Width (median),Height (median)
+train,589,375,214,63.66723259762309,491.0,491.0
+test,100,52,48,52.0,418.5,418.5
+all,689,427,262,61.97387518142236,487.0,487.0

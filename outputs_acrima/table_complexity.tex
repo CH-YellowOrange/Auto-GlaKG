@@ -1,0 +1,15 @@
+\begin{table}[t]
+\centering
+\caption{Model size and per-image inference time.}
+\label{tab:complexity}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lcc}
+\toprule
+Component & Params (M) & Inference (ms / image) \\
+\midrule
+Diagnosis classifier (ResNet50) & 23.510 & 7.137 \\
+Biomarker network (ResNet50, 7 heads) & 23.522 & 6.044 \\
+KG reasoning (10 rules) & 0.000 & 0.198 \\
+\bottomrule
+\end{tabular}}
+\end{table}

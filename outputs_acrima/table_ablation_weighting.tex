@@ -1,0 +1,15 @@
+\begin{table}[t]
+\centering
+\caption{KG-only AUC under different rule-weighting schemes.}
+\label{tab:weights}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lccc}
+\toprule
+Weighting & Oracle (hard) & Auto (hard) & Auto (soft) \\
+\midrule
+Clinical strength (3/2/1) & 1.0000 & 0.9382 & 0.9512 \\
+Uniform (1/1/1) & 1.0000 & 0.9325 & 0.9493 \\
+Learned (logistic, cross-fold) & 1.0000 & 0.9253 & 0.9469 \\
+\bottomrule
+\end{tabular}}
+\end{table}

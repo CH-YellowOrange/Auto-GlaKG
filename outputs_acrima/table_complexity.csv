@@ -1,0 +1,4 @@
+Component,Params (M),Inference (ms / image)
+Diagnosis classifier (ResNet50),23.510081,7.136516666651005
+"Biomarker network (ResNet50, 7 heads)",23.522375,6.044202766740152
+KG reasoning (10 rules),0.0,0.19830204200115986
