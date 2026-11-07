@@ -32,10 +32,10 @@ Pooled out-of-fold predictions, nested group-aware 5-fold cross-validation, 689 
 ## Repository structure
 
 ```
-Auto_GlaKG/
-├── data/                           # put the two parquet files here (not included)
-├── 03_acrima_circularity.ipynb     # data and annotation audit (CPU, about 1 to 2 min)
-├── 04_acrima_auto_kg.ipynb         # main experiment, evaluation, figures, KG visualization
+.
+├── data/                       # put the two parquet files here (not included)
+├── data_preprocessing.ipynb    # data loading and annotation audit (CPU, about 1 to 2 min)
+├── auto_glakg.ipynb            # main experiment, evaluation, figures, KG visualization
 ├── requirements.txt
 └── README.md
 ```
@@ -55,7 +55,7 @@ The 689 optic-disc-centred images (427 glaucoma, 262 normal) are pooled from ACR
 
 ```bash
 git clone <this-repo>
-cd Auto_GlaKG
+cd <repo-name>
 pip install -r requirements.txt
 ```
 
@@ -65,9 +65,9 @@ Install PyTorch for your platform first if needed (see pytorch.org). The code se
 
 Run the notebooks in JupyterLab, in this order.
 
-**1. `03_acrima_circularity.ipynb`** (annotation audit). Run top to bottom. It quantifies how strongly the annotations encode the label: single-biomarker separability, annotation-only classifiers, biomarker correlations, text leakage, image-size shortcuts, and near-duplicate images across the official split.
+**1. `data_preprocessing.ipynb`** (data loading and annotation audit). Run top to bottom. It quantifies how strongly the annotations encode the label: single-biomarker separability, annotation-only classifiers, biomarker correlations, text leakage, image-size shortcuts, and near-duplicate images across the official split.
 
-**2. `04_acrima_auto_kg.ipynb`** (main experiment). Run in three passes:
+**2. `auto_glakg.ipynb`** (main experiment). Run in three passes:
 
 | Pass | Setting in Cell 2 | Purpose |
 |---|---|---|
