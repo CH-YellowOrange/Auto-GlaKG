@@ -1,7 +1,0 @@
-Model (annotations only),AUC,Acc,Balanced Acc,F1,MCC
-Clinical-rule score (no training),1.0,1.0,1.0,1.0,1.0
-CDR only (logistic),1.0,1.0,1.0,1.0,1.0
-All biomarkers (logistic),1.0,1.0,1.0,1.0,1.0
-"All biomarkers (tree, depth 1)",1.0,1.0,1.0,1.0,1.0
-"All biomarkers (tree, depth 3)",1.0,1.0,1.0,1.0,1.0
-Binary signs only (logistic),1.0,1.0,1.0,1.0,1.0

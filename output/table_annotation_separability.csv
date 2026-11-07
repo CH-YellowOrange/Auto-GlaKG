@@ -1,8 +1,0 @@
-biomarker,AUC alone,mean | glaucoma,mean | normal
-cdr,1.0,0.7681,0.3792
-isnt_violated,1.0,1.0,0.0
-rim_thinning,1.0,1.0,0.0
-notching,0.8642,0.7283,0.0
-bayoneting,0.8642,0.7283,0.0
-rim_pallor,0.8618,0.7237,0.0
-laminar_dot_sign,0.7752,0.5504,0.0
