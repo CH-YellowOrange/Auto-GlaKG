@@ -1,0 +1,23 @@
+\begin{table}[t]
+\centering
+\caption{Pairwise statistical comparisons (pooled out-of-fold predictions).}
+\label{tab:tests}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lcccccccccc}
+\toprule
+Comparison & AUC A & AUC B & Delta AUC & DeLong z & DeLong p & A right / B wrong & A wrong / B right & McNemar p & DeLong p (Holm) & McNemar p (Holm) \\
+\midrule
+Auto-KG (soft) + Image vs Image only (ResNet50) & 0.9463 & 0.9513 & -0.0050 & -0.8954 & 0.3706 & 11 & 10 & 1.0000 & 1.0000 & 1.0000 \\
+Auto-KG (soft) + Image vs Oracle-KG (hard) & 0.9463 & 1.0000 & -0.0537 & -5.5920 & 0.0000 & 0 & 61 & 0.0000 & 0.0000 & 0.0000 \\
+Auto-KG (soft) + Image vs Oracle-KG (hard) + Image & 0.9463 & 1.0000 & -0.0537 & -5.5920 & 0.0000 & 0 & 61 & 0.0000 & 0.0000 & 0.0000 \\
+Auto-KG (soft) + Image vs Oracle-KG (soft) & 0.9463 & 1.0000 & -0.0537 & -5.5920 & 0.0000 & 0 & 61 & 0.0000 & 0.0000 & 0.0000 \\
+Auto-KG (soft) + Image vs Oracle-KG (soft) + Image & 0.9463 & 1.0000 & -0.0537 & -5.5920 & 0.0000 & 0 & 61 & 0.0000 & 0.0000 & 0.0000 \\
+Auto-KG (soft) + Image vs Auto-KG (hard) & 0.9463 & 0.9382 & 0.0081 & 1.0454 & 0.2958 & 20 & 12 & 0.2153 & 1.0000 & 0.8613 \\
+Auto-KG (soft) + Image vs Auto-KG (hard) + Image & 0.9463 & 0.9489 & -0.0025 & -0.4132 & 0.6794 & 19 & 13 & 0.3771 & 1.0000 & 0.8677 \\
+Auto-KG (soft) + Image vs Auto-KG (soft) & 0.9463 & 0.9512 & -0.0049 & -0.6950 & 0.4870 & 23 & 13 & 0.1325 & 1.0000 & 0.6625 \\
+Auto-KG (soft) vs Image only (ResNet50) & 0.9512 & 0.9513 & -0.0001 & -0.0098 & 0.9922 & 24 & 33 & 0.2892 & 1.0000 & 0.8677 \\
+Oracle-KG (soft) vs Auto-KG (soft) & 1.0000 & 0.9512 & 0.0488 & 5.5859 & 0.0000 & 71 & 0 & 0.0000 & 0.0000 & 0.0000 \\
+Oracle-KG (hard) vs Auto-KG (hard) & 1.0000 & 0.9382 & 0.0618 & 6.2333 & 0.0000 & 69 & 0 & 0.0000 & 0.0000 & 0.0000 \\
+\bottomrule
+\end{tabular}}
+\end{table}

@@ -1,0 +1,7 @@
+,Oracle KG,Auto KG
+FundusImage nodes,689,689
+ClinicalRule nodes,10,10
+BiomarkerType nodes,7,7
+GOVERNED_BY edges,10,10
+SUPPORTS_RULE edges (a ≥ 0.5),2971,3104
+SUPPORTS_RULE edges (all a > 0),2971,6890

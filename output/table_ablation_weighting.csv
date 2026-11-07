@@ -1,0 +1,4 @@
+Weighting,Oracle (hard),Auto (hard),Auto (soft)
+Clinical strength (3/2/1),1.0,0.938158106441175,0.951186155853907
+Uniform (1/1/1),1.0,0.9324507928562491,0.9493269213579562
+"Learned (logistic, cross-fold)",1.0,0.9253311761445911,0.9468687988272521

@@ -1,0 +1,23 @@
+\begin{table}[t]
+\centering
+\caption{Leave-one-rule-out ablation (KG-only AUC).}
+\label{tab:loro}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lcccccc}
+\toprule
+Removed rule & Oracle (hard) & Auto (hard) & Auto (soft) & Delta Oracle (hard) & Delta Auto (hard) & Delta Auto (soft) \\
+\midrule
+none (full KG) & 1.0000 & 0.9382 & 0.9512 & 0.0000 & 0.0000 & 0.0000 \\
+rule\_cdr\_high & 1.0000 & 0.9190 & 0.9461 & 0.0000 & -0.0192 & -0.0050 \\
+rule\_cdr\_moderate & 1.0000 & 0.9378 & 0.9520 & 0.0000 & -0.0003 & 0.0009 \\
+rule\_cdr\_normal & 1.0000 & 0.9273 & 0.9503 & 0.0000 & -0.0108 & -0.0009 \\
+rule\_rim\_thinning & 1.0000 & 0.9383 & 0.9511 & 0.0000 & 0.0001 & -0.0001 \\
+rule\_notching & 1.0000 & 0.9380 & 0.9524 & 0.0000 & -0.0002 & 0.0012 \\
+rule\_isnt\_violated & 1.0000 & 0.9383 & 0.9511 & 0.0000 & 0.0001 & -0.0001 \\
+rule\_isnt\_intact & 1.0000 & 0.9383 & 0.9511 & 0.0000 & 0.0001 & -0.0001 \\
+rule\_bayoneting & 1.0000 & 0.9371 & 0.9518 & 0.0000 & -0.0011 & 0.0006 \\
+rule\_rim\_pallor & 1.0000 & 0.9379 & 0.9515 & 0.0000 & -0.0002 & 0.0003 \\
+rule\_lds & 1.0000 & 0.9380 & 0.9517 & 0.0000 & -0.0001 & 0.0005 \\
+\bottomrule
+\end{tabular}}
+\end{table}
