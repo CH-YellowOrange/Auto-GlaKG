@@ -164,7 +164,7 @@ The biomarker targets are AI-generated and strongly tied to the label, so agreem
 
 ## Citation
 
-If you use this code, please cite GlaKG:
+If you use this code, please cite GlaKG and Auto-GlaKG:
 
 ```bibtex
 @inproceedings{glakg2026,
@@ -172,9 +172,14 @@ If you use this code, please cite GlaKG:
   booktitle = {IEEE International Conference on Bioinformatics and Biomedicine (BIBM)},
   year      = {2026}
 }
-```
 
-The Auto-GlaKG paper is under review; the citation will be added upon publication.
+@article{huang2026autoglakg,
+  author  = {Huang, Cheng and Han, Zeyu and Hu, Yian and Ding, Yaopeng and Qiu, Jingxi and Liu, Yadi},
+  title   = {{Auto-GlaKG}: Automated Biomarker Reasoning for Explainable Glaucoma Detection},
+  journal = {arXiv preprint arXiv:2611.11258},
+  year    = {2026}
+}
+```
 
 ## License
 
